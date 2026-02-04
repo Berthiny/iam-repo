@@ -1,6 +1,5 @@
 resource "aws_iam_user" "example" {
   name = var.aws_iam_user_name
-
   tags = {
     Name = "MyUser"
   }
