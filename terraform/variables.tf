@@ -1,4 +1,4 @@
-variable aws_iam_user_name {
+variable "aws_iam_user_name" {
   description = "The name of the IAM user to create"
   type        = string
   default     = "my-iam-user"
